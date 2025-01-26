@@ -13,6 +13,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   /* EmbleValues */
+   --detail-medium-contrast: rgb(234, 234, 234);
+   --text-high-contrast-rgb-value: 49, 49, 49;
+   --detail-high-contrast: rgb(192, 192, 192);
+   --text-low-contrast: rgb(116, 109, 118);
+   
 }
 
 body {

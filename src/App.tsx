@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/molecules/Header";
 import HeaderSection from "./components/organisms/HeaderSection";
 import OurStorySection from "./components/organisms/OurStorySection";
+import TalentsTrending from "./components/organisms/TalentsTrending";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </div>
       {/* Our story */}
       <OurStorySection />
+      {/* Trending Talents */}
+      <TalentsTrending />
+      
     </main>
   );
 }
