@@ -5,7 +5,7 @@ import TeamSection from "../molecules/TeamsSection";
 const HeaderSection = () => {
   return (
     <div className="w-full">
-      <div className="container mr-6 mb-8 flex flex-col items-start justify-center gap-y-2.5 md:space-x-5 md:flex-row md:justify-between">
+      <div className="container px-[2rem] mr-6 mb-8 flex flex-col items-start justify-center gap-y-2.5 md:space-x-5 md:flex-row md:justify-between">
         <Reveal>
           <h1 className="w-full md:w-auto lg:w-[40%] text-4xl leading-12 font-recoleta-medium">
             Looking for the <span className="text-secondary">Right talent</span>{" "}
