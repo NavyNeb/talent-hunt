@@ -8,21 +8,29 @@ export const TEAM:Array<teamType> = [
     {
         name: "Janifer",
         role: "QA Engineer",
-        image: brunett
+        image: brunett,
+        bgColor: '#FFB9CE',
+        height: 310
     },
     {
         name: "John Doe",
         role: "Full Stack Developer",
-        image: youngMan
+        image: youngMan,
+        bgColor: '#CAD5D4',
+        height: 200
     },
     {
         name: "Michael",
         role: "Front-end Developer",
-        image: bohemianMan
+        image: bohemianMan,
+        bgColor: '#E4DCD3',
+        height: 300
     },
     {
         name: "Emilie Smile",
         role: "UX Designer",
-        image: prettyWoman
+        image: prettyWoman,
+        bgColor: '#FFCA31',
+        height: 205
     }
 ]
